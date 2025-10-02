@@ -1,0 +1,163 @@
+/* logos --------------------------------------------------------------------------------*/
+
+.logo {
+   width: 80px;
+   background-color: bisque;
+
+
+}
+
+.logo-2 {
+   width: 800px
+}
+
+.img-contacto {
+   width: 500px;
+
+}
+
+.logo-3 {
+   width: 800px;
+}
+
+.logo-4 {
+   display: flex;
+
+   padding: 10px;
+   width: 100px;
+
+
+   /* header --------------------------------------------------------------------------------------------------*/
+}
+
+header {
+   background-color: bisque;
+}
+
+.flex-header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+
+}
+
+.stiky-contain {
+
+
+   background-color: bisque;
+   top: 5px;
+   padding: 10px;
+}
+
+/* ----------------------------------- main -------------------------*/
+
+h2 {
+   color: rgb(190, 0, 0);
+   font-size: 38px;
+   margin: 20px;
+   text-align: center;
+}
+
+
+
+h3 {
+   font-size: 25px;
+   text-align: start;
+   text-decoration: underline;
+   text-transform: uppercase;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+   color: black;
+   font-size: 18px;
+   margin: 20px;
+}
+
+h1 {
+   color: black;
+   font-size: 48px;
+   margin: 20px;
+   text-align: center;
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+
+body {
+   background-color: palegoldenrod;
+}
+
+
+/*clases*/
+
+#testimonios {
+
+   color: rgb(190, 0, 0);
+   font-size: 48px;
+   text-align: center;
+   text-decoration: underline;
+
+}
+
+.mayuscu {
+   text-shadow: 10px;
+   font-size: 20px;
+   text-decoration: underline;
+}
+
+
+.Texto_negro {
+   color: black;
+}
+
+nav section ul li {
+   font-size: 20px;
+   color: black;
+}
+
+.fruti-nosotros {
+   width: 500px;
+}
+
+.parrafo-nosotros {
+   font-size: 22px;
+   text-decoration: underline;
+
+}
+
+
+
+
+/*    flex box --------------------------------------------------------------------------------------    */
+.caja {
+   display: block center;
+   width: 100%;
+   height: 100px;
+   background-color: rgb(190, 0, 0);
+   border: 3px solid black;
+   
+   
+
+
+}
+
+
+.elemento-caja {
+   display: block;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 34px;
+}
+
+
+
+
+
+
+
+
+
+/*footer --------------------------------------------------------------------------------------------------*/
+footer {
+   background-color: bisque
+}
