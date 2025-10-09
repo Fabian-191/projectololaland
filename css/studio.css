@@ -1,3 +1,19 @@
+
+
+
+
+
+@media ( max-whidt:480px ) {
+   
+   .body {
+background-color: aquamarine ;
+   }
+   
+   
+
+}
+
+
 /* logos --------------------------------------------------------------------------------*/
 
 .logo {
@@ -8,7 +24,7 @@
 }
 
 .logo-2 {
-   width: 800px
+   width: 500px
 }
 
 .img-contacto {
@@ -17,7 +33,8 @@
 }
 
 .logo-3 {
-   width: 800px;
+   width: 500px;
+
 }
 
 .logo-4 {
@@ -90,6 +107,56 @@ body {
 
 /*clases*/
 
+.grid-contain img {
+width: 90%;
+height: 90%;
+}
+
+
+.grid-contain {
+
+   display: grid;
+   grid-template-columns:25% 40% 25% ;
+   grid-template-areas:
+      "titulo titulo titulo"
+
+      "alfajor texto-1 texto-1"
+
+      "alfajor torta torta"
+
+      "texto-2 precios texto-3"
+   ;
+   grid-template-rows: 100px 250px 250px 250px;
+   column-gap: 5px;
+   row-gap: 5px;
+justify-content: center;
+justify-items: center;
+align-items: center;
+
+}
+
+.titulo {
+   grid-area: titulo;
+}
+.alfajor {
+   grid-area: alfajor;
+}
+.texto-1{
+   grid-area: texto-1;
+}
+.torta {
+   grid-area: torta;
+}
+.texto-2 {
+   grid-area: texto-2;
+}
+.precios {
+   grid-area: precios;
+}
+.texto-3 {
+   grid-area: texto-3;
+}
+
 #testimonios {
 
    color: rgb(190, 0, 0);
@@ -116,7 +183,7 @@ nav section ul li {
 }
 
 .fruti-nosotros {
-   width: 500px;
+   width: 300px;
 }
 
 .parrafo-nosotros {
@@ -135,10 +202,15 @@ nav section ul li {
    height: 100px;
    background-color: rgb(190, 0, 0);
    border: 3px solid black;
-   
-   
+
+}
 
 
+.caja.index {
+   display: flex;
+   height: 600px;
+   
+  
 }
 
 
@@ -161,3 +233,8 @@ nav section ul li {
 footer {
    background-color: bisque
 }
+
+
+
+
+
