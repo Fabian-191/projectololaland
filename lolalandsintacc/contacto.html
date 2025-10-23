@@ -11,6 +11,9 @@
 
 
     <link rel="stylesheet" href="../css/studio.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS&display=swap" rel="stylesheet">
+
 </head>
 <!-- header -->
 <header class="stiky-contain">
@@ -43,16 +46,15 @@
 </header>
 
 <body>
-    <main>
+    <main class="body">
 
         <section>
             <article>
-                <h2 class="servicios">Contacto</h2>
+                <h1 class="encabezados">Contacto</h1>
                 <p></p>
             </article>
         </section>
 
-        <img src="" alt="">
 
         <p>
             ¡Hola! Somos lolalandsintacc, tu nuevo espacio de comida deliciosa y 100% segura para celíacos. En LolaLand
@@ -66,62 +68,96 @@
             conocer nuestro menú."
         </p>
 
-        <img class="img-contacto" src="../imagenes/contacto.jpg" alt="">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-contacto" src="../imagenes/torta2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-contacto" src="../imagenes/blancos.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-contacto" src="../imagenes/tortafrutilla.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
 
         <p class="mayuscu"> si tienes ganas de contactarnos rellena el formulario y a la brevedad te contactaremos!</p>
-
-        </select>
-        <form action="submit" method="post"> <!-- etiqueta contenedora -->
-
-
-            <label for="nombre">Nombre:</label>
-
-            <input type="text" name="nombre" id="nombre">
-
-            <label for="apellido">Apellido:</label>
-
-            <input type="texr" name="apellido" id="apellido">
-
-            <label for="mensaje">Mensaje:</label>
-            <textarea name="mensaje" id="mensaje"></textarea>
-
-            <label for="radio">Hombre</label>
-            <input type="radio" name="" id="">
-
-            <label for="radio">Mujer</label>
-            <input type="radio" name="" id="">
-
-            <label for="radio">Prefiero No Responder</label>
-            <input type="radio" name="" id="">
-            <label for="Suscribe">Suscribirse:</label>
-            <input type="checkbox" name="" id="">
-
-            <label for="pais">Pais:</label>
-
-            <select name="" id="">
-
-                <option value="">Brasil</option>
-                <option value="">Argentina</option>
-                <option value="">Dinamarca</option>
-                <option value="">Suecia</option>
-
-                <input type="submit" value="Enviar">
+        <section>
+            </select>
+            <form class="formulario" action="submit" method="post"> <!-- etiqueta contenedora -->
 
 
-        </form>
+                <label for="nombre">Nombre:</label>
 
+                <input type="text" name="nombre" id="nombre">
+
+                <label for="apellido">Apellido:</label>
+
+                <input type="texr" name="apellido" id="apellido">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+
+                <label for="radio">Hombre</label>
+                <input type="radio" name="" id="">
+
+                <label for="radio">Mujer</label>
+                <input type="radio" name="" id="">
+
+                <label for="radio">Prefiero No Responder</label>
+                <input type="radio" name="" id="">
+                <label for="Suscribe">Suscribirse:</label>
+                <input type="checkbox" name="" id="">
+
+                <label for="pais">Pais:</label>
+
+                <select name="" id="">
+
+                    <option value="">Brasil</option>
+                    <option value="">Argentina</option>
+                    <option value="">Dinamarca</option>
+                    <option value="">Suecia</option>
+
+                    <input type="submit" value="Enviar">
+
+
+            </form>
+        </section>
     </main>
     <footer>
-        <img class="logo-4" src="../imagenes/footer.jpg" alt="">
-        <nav>
-            <section>
-                <ul>
 
-                    <li><a href="https://www.instagram.com/lolalandsintacc/>instagram">lolalandsintacc</a></li>
-                    <li>Numero de telefono: 144490232</li>
-                    <li>Envios por zona norte con costo!</li>
-                </ul>
-            </section>
+        <nav class="stiky-footer">
+            <img class="logo-4" src="../imagenes/footer.jpg" alt="">
+
+            <ul>
+
+                <li><a href="https://www.instagram.com/lolalandsintacc/>instagram">lolalandsintacc</a></li>
+                <li>Numero de telefono: 144490232</li>
+                <li>Envios por zona norte con costo!</li>
+            </ul>
+
         </nav>
 
 

@@ -1,122 +1,70 @@
-
-
-
-
-
-@media ( max-whidt:480px ) {
-   
-   .body {
-background-color: aquamarine ;
-   }
-   
-   
-
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 
-/* logos --------------------------------------------------------------------------------*/
 
-.logo {
-   width: 80px;
-   background-color: bisque;
+/* header --------------------------------------------------------------------------------------------------*/
 
-
-}
-
-.logo-2 {
-   width: 500px
-}
-
-.img-contacto {
-   width: 500px;
-
-}
-
-.logo-3 {
-   width: 500px;
-
-}
-
-.logo-4 {
-   display: flex;
-
-   padding: 10px;
-   width: 100px;
-
-
-   /* header --------------------------------------------------------------------------------------------------*/
-}
-
-header {
-   background-color: bisque;
-}
-
-.flex-header {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-
-}
 
 .stiky-contain {
 
 
+   display: flex;
+   background-image: url(../imagenes/banner1.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 150px;
+   padding: 15px;
+   margin: 15px;
+
+}
+
+.nav.index {
+   overflow: hidden;
+   position: relative;
+}
+
+
+.logo {
+   display: flex;
+   width: 120px;
+   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------- main -----------------------------------------------*/
+
+.body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
    background-color: bisque;
-   top: 5px;
-   padding: 10px;
+   margin: 15px;
+   padding: 15px;
 }
 
-/* ----------------------------------- main -------------------------*/
-
-h2 {
-   color: rgb(190, 0, 0);
-   font-size: 38px;
-   margin: 20px;
-   text-align: center;
-}
-
-
-
-h3 {
-   font-size: 25px;
-   text-align: start;
-   text-decoration: underline;
-   text-transform: uppercase;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-p {
-   color: black;
-   font-size: 18px;
-   margin: 20px;
-}
-
-h1 {
-   color: black;
-   font-size: 48px;
-   margin: 20px;
-   text-align: center;
-   text-decoration: underline;
-   text-transform: uppercase;
-}
-
-body {
-   background-color: palegoldenrod;
-}
-
-
-/*clases*/
 
 .grid-contain img {
-width: 90%;
-height: 90%;
+   width: 90%;
+   height: 90%;
 }
 
 
 .grid-contain {
 
    display: grid;
-   grid-template-columns:25% 40% 25% ;
+   grid-template-columns: 25% 40% 25%;
    grid-template-areas:
       "titulo titulo titulo"
 
@@ -129,88 +77,64 @@ height: 90%;
    grid-template-rows: 100px 250px 250px 250px;
    column-gap: 5px;
    row-gap: 5px;
-justify-content: center;
-justify-items: center;
-align-items: center;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
 
 }
 
 .titulo {
    grid-area: titulo;
 }
+
 .alfajor {
    grid-area: alfajor;
 }
-.texto-1{
-   grid-area: texto-1;
-}
+
+
+
 .torta {
    grid-area: torta;
 }
+
 .texto-2 {
    grid-area: texto-2;
 }
+
 .precios {
    grid-area: precios;
 }
+
 .texto-3 {
    grid-area: texto-3;
-}
-
-#testimonios {
-
-   color: rgb(190, 0, 0);
-   font-size: 48px;
-   text-align: center;
-   text-decoration: underline;
-
-}
-
-.mayuscu {
-   text-shadow: 10px;
-   font-size: 20px;
-   text-decoration: underline;
-}
-
-
-.Texto_negro {
-   color: black;
-}
-
-nav section ul li {
-   font-size: 20px;
-   color: black;
-}
-
-.fruti-nosotros {
-   width: 300px;
-}
-
-.parrafo-nosotros {
-   font-size: 22px;
-   text-decoration: underline;
-
-}
-
-
-
-
-/*    flex box --------------------------------------------------------------------------------------    */
-.caja {
-   display: block center;
-   width: 100%;
-   height: 100px;
-   background-color: rgb(190, 0, 0);
-   border: 3px solid black;
-
 }
 
 
 .caja.index {
    display: flex;
    height: 600px;
-   
-  
+
+}
+
+.logo-2 {
+   width: 500px
+}
+
+.logo-3 {
+   width: 500px;
+}
+
+
+/* flexx -----------------------------------------*/
+
+.caja {
+   display: block center;
+   width: 100%;
+   height: 100px;
+   background-color: rgb(190, 0, 0);
+   border: 3px solid black;
+   margin-bottom: 50px;
+
 }
 
 
@@ -222,19 +146,201 @@ nav section ul li {
 }
 
 
+.encabezados {
+   font-family: "Playwrite DE SAS", cursive;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   color: rgb(177, 112, 112);
+   font-size: 48px;
+   margin: 20px;
+   text-align: center;
+   text-decoration: wavy;
+   text-transform: uppercase;
+}
+
+.img-contacto {
+   display: flex;
+   margin: 0 auto;
+   width: 480px;
 
 
+}
+
+p {
+   color: black;
+   font-size: 18px;
+   margin: 20px;
+}
+
+.acordion-contain {
+   display: flex;
+   background-color: antiquewhite;
+   top: 5px;
+   padding: 10px;
+}
+
+.h3 {
+   font-size: 25px;
+   color: rgb(177, 112, 112);
+   text-align: center;
+   text-decoration: solid;
+   text-transform: uppercase;
+   font-family: "Playwrite DE SAS", cursive;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.formulario {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
 
 
+}
 
+/*foooter--------------------------------------------------------------*/
+.stiky-footer {
+   display: flex;
+   background-color: bisque;
+   top: 5px;
+   padding: 15px;
+   margin: 15px;
+}
 
-
-/*footer --------------------------------------------------------------------------------------------------*/
-footer {
-   background-color: bisque
+.logo-4 {
+   padding: 10px;
+   margin: 5px;
+   width: 100px;
 }
 
 
 
 
+/* NO me funciono la mediaqueri abajo y tampoco arriba :c*/
 
+@media screen and (max-width: 480px) {
+
+
+   .img-contacto  {
+      width: 100%;
+      height: auto;
+      display: block;
+   }
+
+
+   body {
+      background-color: rgb(209, 209, 209);
+
+   }
+
+   .grid-contain {
+      display: grid;
+      grid-template-columns: 100%;
+      padding: 10px;
+      margin: 5px;
+      grid-template-areas:
+         "titulo"
+         "alfajor"
+         "texto-1"
+         "torta"
+         "texto-2"
+         "precios"
+         "texto-3"
+      ;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+
+   }
+
+   .titulo {
+      grid-area: titulo;
+   }
+
+   .alfajor {
+      grid-area: alfajor;
+   }
+
+   .texto-1 {
+      grid-area: texto-1;
+   }
+
+   .torta {
+      grid-area: torta;
+   }
+
+   .texto-2 {
+      grid-area: texto-2;
+   }
+
+   .precios {
+      grid-area: precios;
+   }
+
+   .texto-3 {
+      grid-area: texto-3;
+   }
+
+   .stiky-contain {
+      display: flex;
+      background-image: url(../imagenes/banner1.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 150px;
+
+   }
+
+   .logo {
+      display: flex;
+      width: 80px;
+      align-items: center;
+   }
+
+   .body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: gray margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+
+   }
+
+
+
+   .grid-contain img {
+      width: 250px;
+      height: 250px;
+   }
+
+   .caja {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+
+   .elemento-caja {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+
+   
+
+   .stiky-footer {
+      display: flex;
+      background-color: bisque;
+      top: 5px;
+      padding: 10px;
+   }
+
+   .logo-4 {
+      padding: 10px;
+      margin: 5px;
+      width: 100px;
+   }
+
+}
